@@ -1,5 +1,5 @@
 
-/*You can make and maintenance a book of entries using this program
+/*You can make and maintain a book of entries using this program
 
 program arguments                           argument params
 filename:                          
@@ -8,11 +8,9 @@ s: sets data in a new entry             give id , name, email
 g: displays an entry if it's set        give id
 d: deletes an entry                     give id
 l: displays the list                    
-f: displays matched entries             give as many keywords as you want (id, name, email)
+f: displays matched entries             give as many keywords as you want (id, name, email) */
 
-*/
 
-/* check the file book at home directory*/
 
 #include <stdio.h>
 #include <assert.h>
