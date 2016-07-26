@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# My first script
+
+
+
+./addressbook
+sleep 1;
+./addressbook testbook c 35 200
+sleep 1;
+./addressbook testbook s 0 george george@geo.com 
+sleep 1;
+./addressbook testbook s 1 john jj@com.com 
+sleep 1;
+./addressbook testbook s 23 pepe pepegolo@org.com 
+sleep 1;
+./addressbook testbook s 201 anna anna@me.com 
+sleep 1;
+./addressbook testbook s 199 anna anna@me.com 
+sleep 1;
+./addressbook testbook g 23 
+sleep 1;
+./addressbook testbook g 1253 
+sleep 1;
+./addressbook testbook g 20 
+sleep 1;
+./addressbook testbook d 20
+ sleep 1;
+./addressbook testbook d 1 
+sleep 1;
+./addressbook testbook f 23 
+sleep 1;
+./addressbook testbook f larry 
+sleep 1;
+./addressbook testbook f george anna 
+sleep 1;
+./addressbook testbook f george anna pepe 
+sleep 1;
+./addressbook testbook c 
+
+
+
+
+
+
+
+
